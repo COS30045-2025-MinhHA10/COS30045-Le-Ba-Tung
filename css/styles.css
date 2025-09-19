@@ -1,15 +1,23 @@
-/* General Styling */
-body {
-  font-family: Arial, sans-serif;
+/* Reset mặc định */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cấu trúc chính: body chiếm toàn bộ chiều cao */
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Navbar */
 .navbar {
   display: flex;
   align-items: center;
-  background-color: #004080; /* Match logo blue */
+  background-color: #004080; /* match logo color */
   padding: 10px 20px;
 }
 
@@ -34,12 +42,23 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #0066cc; /* Hover effect */
+  background-color: #0066cc; /* hover feedback */
   border-radius: 5px;
 }
 
 .navbar a.active {
-  border-bottom: 2px solid yellow; /* Show active page */
+  border-bottom: 2px solid yellow; /* active page feedback */
+}
+
+/* Nội dung chính */
+main {
+  flex: 1; /* Đẩy footer xuống dưới */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* căn giữa theo chiều dọc */
+  align-items: center;     /* căn giữa theo chiều ngang */
+  text-align: center;
+  padding: 40px 20px;
 }
 
 /* Footer */
@@ -48,5 +67,4 @@ footer {
   color: #fff;
   text-align: center;
   padding: 15px;
-  margin-top: 30px;
 }
