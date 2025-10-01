@@ -13,15 +13,18 @@ This will help consumers and stakeholders make informed decisions about energy-e
 
 ## 2. Screen Technologies (Q1 & Q4)
 **Finding:**  
-- LCD/LED technologies dominate the Australian market.  
-- Plasma is rare, while OLED is growing in popularity.  
+- The dataset includes three main technologies: **LCD, OLED, and LCD(LED)**.  
+- Among them, **LCD(LED) is the most common technology**.  
 
 **Insights:**  
-- Pie chart: LCD is the most frequent technology.  
-- Bar chart: OLED TVs tend to use less power compared to Plasma.  
+- **Pie Chart** LCD(LED) dominates the market share
+- <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/b4cae700-0869-406b-8e70-132f99e32bbd" />
+
+- **Bar chart:** LCD(LED) also consumes the **least amount of power** compared to OLED and LCD.
+- <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/696a17df-0f02-49ec-83ec-58e86c9864b0" />
 
 **Story:**  
-Consumers often choose LCD/LED for balance, but OLED can be a better option for lower power use.  
+Consumers prefer LCD(LED) not only because it is the most widely available, but also because it offers the lowest power consumption.  
 
 ---
 
@@ -30,35 +33,43 @@ Consumers often choose LCD/LED for balance, but OLED can be a better option for 
 - The most common screen sizes range between **40–55 inches**.  
 
 **Insights:**  
-- Bar chart: Frequency of screen sizes.  
-- Scatter plot: Larger TVs consume more power.  
-- Scatter plot with star ratings: Some large TVs with higher star ratings are more efficient than smaller, poorly rated TVs.  
+- **Bar chart:** Frequency of screen sizes.
+- <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/a83c96e9-602a-47c0-81fe-a8d5ef7a5257" />
+  
+- **Scatter plot:** Larger TVs generally consume more power.
+- <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/22356639-66c6-4e9d-b794-933f3735ff4d" />
+
+- **Scatter plot with star ratings:** Some larger TVs with higher star ratings are more efficient than smaller, poorly rated TVs.
+- <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/38f3b7e5-43a5-421f-b64a-55828ecab0ec" />
+  
 
 **Story:**  
-Size matters, but energy efficiency (star rating) can reduce the impact of larger screens.  
+Size matters, but choosing a TV with a high star rating can significantly reduce energy consumption.  
 
 ---
 
 ## 4. Brands (Q3)
 **Finding:**  
-- Samsung and LG lead in the number of different models available, followed by Sony and TCL.  
+- The dataset shows that **BAUHN has the largest number of TV models**, followed by **JVC** and **BLAUPUNKT**.  
+- Other brands such as EKO, LOEWE, and AIWA also contribute several models, while many smaller brands have only a few.  
 
 **Insights:**  
-- Bar chart: Brand diversity in the market.  
-
+- **Bar chart:** Highlights that the market is not dominated by global giants like Samsung or LG in this dataset, but instead by BAUHN, JVC, and BLAUPUNKT.
+- <img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/b417064b-6ca6-47c0-867c-252974624bda" />
+ 
 **Story:**  
-The wide range of options from Samsung and LG suggests strong competition and consumer choice in Australia.  
+This suggests that in the Australian market, many lesser-known or local brands have a strong presence in terms of product variety. Consumers may encounter a wider range of models from BAUHN, JVC, and BLAUPUNKT when shopping for TVs.  
 
 ---
 
 ## 5. Conclusion
 From the analysis, we can draw three key insights:  
 
-1. **LCD/LED are the most common technologies**, while OLED offers better efficiency.  
-2. **TVs with larger screens generally consume more power**, but star ratings make a difference.  
-3. **Samsung and LG dominate the market** in terms of model diversity.  
+1. **LCD(LED) is the most common technology** and also the **most energy-efficient**.  
+2. **TVs with larger screens consume more power**, but efficiency ratings (star ratings) can offset this.  
+3. **BAUHN, JVC, and BLAUPUNKT lead the market** in terms of the number of available models, while many global brands are less represented in this dataset.  
 
 **Takeaway for consumers:**  
-Choose a TV by balancing **desired screen size, screen technology, and star rating** to minimize energy use and costs.  
+Choose a TV by balancing **screen size, technology type (LCD(LED)), and star rating** to minimize energy use and costs.  
 
----
+
