@@ -1,0 +1,117 @@
+/* 🔹 Reset & global layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f8fc;
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+/* 🔹 Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #004080; /* matches logo color */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar .logo img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s, border-bottom 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #0066cc; /* hover feedback */
+}
+
+.navbar a.active {
+  border-bottom: 2px solid #ffdd00; /* yellow active line */
+}
+
+/* 🔹 Main content */
+main {
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* For pages with a lot of text (like data.html) */
+main h1, main h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+main p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+main img {
+  width: 90%;
+  max-width: 700px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Lists in data.html */
+main ul {
+  text-align: left;
+  margin: 10px auto 20px;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+/* 🔹 Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 3px solid #004080;
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+  .navbar ul {
+    gap: 10px;
+  }
+
+  main {
+    padding: 20px 10px;
+  }
+
+  main img {
+    width: 100%;
+  }
+}
