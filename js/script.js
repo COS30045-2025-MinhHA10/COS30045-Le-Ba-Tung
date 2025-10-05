@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "data.html";
         return;
       }
-
       // Update content
       if (content && pages[page]) content.innerHTML = pages[page];
     });
